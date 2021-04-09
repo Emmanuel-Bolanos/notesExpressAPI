@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.noteCardContainer {
+  background-image: linear-gradient(135deg, #f7566c, #D90429);
+  box-shadow: 1px 1px 2px 1px black;
+  min-width: 250px;
+  max-width: 25vw;
+  height: auto;
+  max-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #11121A;
+  margin: 1em;
+}
+
+.noteCardContainer > * {
+  margin: 0.25em;
+  padding: 0.5em;
+}
+
+#noteCardTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#content {
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: justify;
+}
