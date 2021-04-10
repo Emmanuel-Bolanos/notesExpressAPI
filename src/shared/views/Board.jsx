@@ -32,8 +32,8 @@ export const Board = () => {
             content={notes[0].content}
           />
           <NoteCard 
-            title={notes[1].title}
-            content={notes[1].content}
+            title={notes[2].title}
+            content={notes[2].content}
           />
         </div>
       </React.Fragment>
