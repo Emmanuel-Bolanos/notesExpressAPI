@@ -31,6 +31,10 @@ export const Board = () => {
             title={notes[0].title}
             content={notes[0].content}
           />
+          <NoteCard 
+            title={notes[1].title}
+            content={notes[1].content}
+          />
         </div>
       </React.Fragment>
     );
