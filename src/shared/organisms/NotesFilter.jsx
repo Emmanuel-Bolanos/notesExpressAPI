@@ -6,10 +6,10 @@ export const NotesFilter = () => {
   return (
     <React.Fragment>
       <form action="#">
-        <label for="queries"> Filter notes by: </label>
+        <label htmlFor="queries"> Show notes by: </label>
         <select name="queries" id="queries">
           <option value="title name"> Title name (A to Z) </option>
-          <option value="priority level"> Priority Level </option>
+          <option value="priority level"> Priority Level (High to Low) </option>
           <option value="completion state"> Completion State </option>
           <option value="deadline"> Deadline </option>
         </select>

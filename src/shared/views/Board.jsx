@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import { NoteCard } from "../organisms/NoteCard";
+import { NotesContainer } from "../organisms/NotesContainer";
 import { Header } from "../organisms/Header"
 import { NotesFilter } from "../organisms/NotesFilter"
 import { fetchNotes } from "../services/notesService";
@@ -27,12 +27,9 @@ export const Board = () => {
           title={"NOTES EXPERIENCE"}
         />
         <NotesFilter />
-        <div className="notesContainer">
-          <NoteCard 
-            title={notes[0].title}
-            content={notes[0].content}
-          />
-        </div>
+        <NotesContainer 
+          notes={notes}
+        />
       </React.Fragment>
     );
   };
